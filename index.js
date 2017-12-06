@@ -8,7 +8,7 @@ function theBeatlesPlay(musicians, instruments) {
 function johnLennonFacts(facts) {
   let countdown = facts.length
   while (countdown > 0) {
-    facts.push
-  }return "done"
+    facts[countdown] = facts[countdown] + "!!!"
+  }return facts
 
 }
