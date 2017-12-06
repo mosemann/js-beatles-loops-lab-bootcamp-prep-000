@@ -10,5 +10,4 @@ function johnLennonFacts(facts) {
   while (countdown > 0) {
     facts[countdown] = facts[countdown] + "!!!"
   }return facts
-
 }
